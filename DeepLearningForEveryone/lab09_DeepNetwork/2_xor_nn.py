@@ -12,7 +12,7 @@ num_features = 2
 num_hidden = 2
 
 W1 = tf.Variable(tf.random_uniform([num_features, num_hidden], -1.0, 1.0), name="Weight1")
-W2 = tf.Variable(tf.random_uniform([num_hidden, 1], -1.0, 1.0), name="Weight1")
+W2 = tf.Variable(tf.random_uniform([num_hidden, 1], -1.0, 1.0), name="Weight2")
 
 b1 = tf.Variable(tf.zeros([2]), name="Bias1")
 b2 = tf.Variable(tf.zeros([1]), name="Bias2")
